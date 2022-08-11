@@ -1,0 +1,81 @@
+body {
+  font-family: sans-serif;
+}
+
+p {
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 18px;
+}
+
+h1 { font-size: 38px ; font-family: sans-serif !important ; font-weight: bold }
+h2 { font-size: 22px ; font-family: sans-serif !important ; font-weight: bold }
+h3 { font-size: 22px ; font-family: sans-serif !important ; font-weight: bold }
+
+li {
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 18px;
+}
+
+.section {
+  padding-top: 1.5em;
+}
+
+.section .sourceCode {
+  border-radius: 15px;
+}
+
+.sourceCode {
+  font-size: 18px;
+}
+
+code, .section pre {
+  font-size: 18px !important;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  border: 1px solid black;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: #e58989;
+  transition: 0.4s;
+}
+
+a:hover {
+  color: #196094;
+}
+
+.group-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  flex-direction: row;
+  height: 250px;
+  width: 900px;
+}
+
+.group-figure {
+  text-align: center;
+  height: 200px;
+  padding-left: 3em;
+  padding-right: 3em;
+}
+
+.group-img {
+  width: 200px;
+  height: 200px;
+  max-height: 200px;
+  border: 0;
+  vertical-align: bottom;
+}
+
+.group-caption {
+  font-size: 1.5em;
+}
